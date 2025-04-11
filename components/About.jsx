@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from "motion/react"
 
-const About = ({isDarkMode}) => {
+const About = ({isDarkMode}) => { 
   return (
     <motion.div id='about' className='w-full px-[12%] py-10 scroll-mt-20'
     initial={{opacity: 0}}
